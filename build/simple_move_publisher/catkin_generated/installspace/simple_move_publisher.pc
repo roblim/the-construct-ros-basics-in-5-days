@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws/install
+
+Name: simple_move_publisher
+Description: Description of simple_move_publisher
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

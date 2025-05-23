@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="simple_move_publisher" type="simple_move_publisher.py" name="SimpleMove"  output="screen">
+    </node>
+</launch>
