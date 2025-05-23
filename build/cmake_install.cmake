@@ -133,6 +133,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/user/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/user/catkin_ws/build/my_package/cmake_install.cmake")
   include("/home/user/catkin_ws/build/my_publisher_example_pkg/cmake_install.cmake")
+  include("/home/user/catkin_ws/build/my_subscriber_example_pkg/cmake_install.cmake")
+  include("/home/user/catkin_ws/build/odom_sub_pkg/cmake_install.cmake")
   include("/home/user/catkin_ws/build/simple_move_publisher/cmake_install.cmake")
 
 endif()

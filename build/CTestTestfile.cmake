@@ -7,4 +7,6 @@
 subdirs("gtest")
 subdirs("my_package")
 subdirs("my_publisher_example_pkg")
+subdirs("my_subscriber_example_pkg")
+subdirs("odom_sub_pkg")
 subdirs("simple_move_publisher")
