@@ -27,4 +27,4 @@ while not rospy.is_shutdown():
   # Increment 'count' variable
   count.data += 1
   # Make sure the publish rate maintains at 2 Hz
-  rate.sleep()                             
+  rate.sleep()

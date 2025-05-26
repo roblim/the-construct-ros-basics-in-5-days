@@ -17,4 +17,4 @@ while not rospy.is_shutdown():
   # Publish the message within the 'count' variable
   pub.publish(twist_msg)
   # Make sure the publish rate maintains at 2 Hz
-  rate.sleep()                             
+  rate.sleep()
