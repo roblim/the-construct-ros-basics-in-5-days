@@ -16,5 +16,5 @@ alias cdsrc="cd ~/catkin_ws/src"
 # catkin
 alias setup="source ~/catkin_ws/devel/setup.bash"
 alias ckm="catkin_make --directory ~/catkin_ws && setup"
-alias ckmp="ckmake --only-pkg-with-deps"
+alias ckmp="catkin_make --only-pkg-with-deps && setup"
 alias ckcp="cdsrc && catkin_create_pkg -m 'Rob Lim'"
