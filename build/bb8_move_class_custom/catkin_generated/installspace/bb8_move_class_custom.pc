@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws/install
+
+Name: bb8_move_class_custom
+Description: Description of bb8_move_class_custom
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lbb8_move_class_custom
+Requires: geometry_msgs rospy std_msgs

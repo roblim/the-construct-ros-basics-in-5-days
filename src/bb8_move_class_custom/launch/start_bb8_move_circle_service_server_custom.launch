@@ -1,0 +1,9 @@
+<launch>
+
+  <node pkg ="bb8_move_class_custom"
+        type="bb8_move_circle_service_server_custom.py"
+        name="move_bb8_in_circle_custom_class_node"
+        output="screen">
+  </node>
+
+</launch>
