@@ -37,7 +37,7 @@ CATKIN_SKIP_TESTING:BOOL=OFF
 CATKIN_SYMLINK_INSTALL:BOOL=OFF
 
 //List of ';' separated packages to build
-CATKIN_WHITELIST_PACKAGES:STRING=topics_quiz
+CATKIN_WHITELIST_PACKAGES:STRING=
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
@@ -359,7 +359,7 @@ RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
 SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 
 //Name of the computer/site where compile is being run
-SITE:STRING=638fa7ad0ff7
+SITE:STRING=1_xterm
 
 //LSB Distrib tag
 UBUNTU:BOOL=TRUE
@@ -379,11 +379,14 @@ _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 
-//The directory containing a CMake configuration file for actionlib.
-actionlib_DIR:PATH=/opt/ros/noetic/share/actionlib/cmake
-
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/noetic/share/actionlib_msgs/cmake
+
+//Value Computed by CMake
+actions_quiz_BINARY_DIR:STATIC=/home/user/catkin_ws/build/actions_quiz
+
+//Value Computed by CMake
+actions_quiz_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/actions_quiz
 
 //Value Computed by CMake
 bb8_circle_server_BINARY_DIR:STATIC=/home/user/catkin_ws/build/bb8_circle_server
@@ -482,9 +485,6 @@ gtest_hide_internal_symbols:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
-//The directory containing a CMake configuration file for iri_wam_reproduce_trajectory.
-iri_wam_reproduce_trajectory_DIR:PATH=iri_wam_reproduce_trajectory_DIR-NOTFOUND
-
 //Path to a library.
 lib:FILEPATH=/opt/ros/noetic/lib/librostime.so
 
@@ -563,20 +563,11 @@ odom_sub_pkg_BINARY_DIR:STATIC=/home/user/catkin_ws/build/odom_sub_pkg
 //Value Computed by CMake
 odom_sub_pkg_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/odom_sub_pkg
 
-//The directory containing a CMake configuration file for rosconsole.
-rosconsole_DIR:PATH=/opt/ros/noetic/share/rosconsole/cmake
-
-//The directory containing a CMake configuration file for roscpp.
-roscpp_DIR:PATH=/opt/ros/noetic/share/roscpp/cmake
-
 //The directory containing a CMake configuration file for roscpp_serialization.
 roscpp_serialization_DIR:PATH=/opt/ros/noetic/share/roscpp_serialization/cmake
 
 //The directory containing a CMake configuration file for roscpp_traits.
 roscpp_traits_DIR:PATH=/opt/ros/noetic/share/roscpp_traits/cmake
-
-//The directory containing a CMake configuration file for rosgraph_msgs.
-rosgraph_msgs_DIR:PATH=/opt/ros/noetic/share/rosgraph_msgs/cmake
 
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/opt/ros/noetic/share/rospy/cmake
@@ -599,9 +590,6 @@ square_drone_action_server_BINARY_DIR:STATIC=/home/user/catkin_ws/build/square_d
 //Value Computed by CMake
 square_drone_action_server_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/square_drone_action_server
 
-//The directory containing a CMake configuration file for std_msg.
-std_msg_DIR:PATH=std_msg_DIR-NOTFOUND
-
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
 
@@ -611,17 +599,11 @@ topics_quiz_BINARY_DIR:STATIC=/home/user/catkin_ws/build/topics_quiz
 //Value Computed by CMake
 topics_quiz_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/topics_quiz
 
-//The directory containing a CMake configuration file for trajectory_msgs.
-trajectory_msgs_DIR:PATH=/opt/ros/noetic/share/trajectory_msgs/cmake
-
 //Value Computed by CMake
 unit_5_services_BINARY_DIR:STATIC=/home/user/catkin_ws/build/unit_5_services
 
 //Value Computed by CMake
 unit_5_services_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/unit_5_services
-
-//The directory containing a CMake configuration file for xmlrpcpp.
-xmlrpcpp_DIR:PATH=/opt/ros/noetic/share/xmlrpcpp/cmake
 
 
 ########################
@@ -771,7 +753,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=24
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
