@@ -37,7 +37,7 @@ CATKIN_SKIP_TESTING:BOOL=OFF
 CATKIN_SYMLINK_INSTALL:BOOL=OFF
 
 //List of ';' separated packages to build
-CATKIN_WHITELIST_PACKAGES:STRING=
+CATKIN_WHITELIST_PACKAGES:STRING=topics_quiz
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
@@ -409,6 +409,12 @@ custom_age_msg_pkg_BINARY_DIR:STATIC=/home/user/catkin_ws/build/custom_age_msg_p
 //Value Computed by CMake
 custom_age_msg_pkg_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/custom_age_msg_pkg
 
+//Value Computed by CMake
+exercise_8-6_BINARY_DIR:STATIC=/home/user/catkin_ws/build/exercise_8-6
+
+//Value Computed by CMake
+exercise_8-6_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/exercise_8-6
+
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/noetic/share/gencpp/cmake
 
@@ -495,6 +501,18 @@ move_bb8_in_circle_custom_BINARY_DIR:STATIC=/home/user/catkin_ws/build/move_bb8_
 move_bb8_in_circle_custom_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/move_bb8_in_circle_custom
 
 //Value Computed by CMake
+my_action_client_example_pkg_BINARY_DIR:STATIC=/home/user/catkin_ws/build/my_action_client_example_pkg
+
+//Value Computed by CMake
+my_action_client_example_pkg_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/my_action_client_example_pkg
+
+//Value Computed by CMake
+my_action_server_example_pkg_BINARY_DIR:STATIC=/home/user/catkin_ws/build/my_action_server_example_pkg
+
+//Value Computed by CMake
+my_action_server_example_pkg_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/my_action_server_example_pkg
+
+//Value Computed by CMake
 my_custom_srv_msg_pkg_BINARY_DIR:STATIC=/home/user/catkin_ws/build/my_custom_srv_msg_pkg
 
 //Value Computed by CMake
@@ -574,6 +592,12 @@ simple_move_publisher_BINARY_DIR:STATIC=/home/user/catkin_ws/build/simple_move_p
 
 //Value Computed by CMake
 simple_move_publisher_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/simple_move_publisher
+
+//Value Computed by CMake
+square_drone_action_server_BINARY_DIR:STATIC=/home/user/catkin_ws/build/square_drone_action_server
+
+//Value Computed by CMake
+square_drone_action_server_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/square_drone_action_server
 
 //The directory containing a CMake configuration file for std_msg.
 std_msg_DIR:PATH=std_msg_DIR-NOTFOUND
@@ -747,7 +771,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=19
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
