@@ -72,8 +72,8 @@ class ActionsQuiz(object):
             # the following line, sets the client in preempted state (goal cancelled)
             self._as.set_preempted()
             success = False
-            # we end the square moves and land
-            self.land()
+            # self.land()
+            break
 
         # builds the next feedback msg to be sent
         self._feedback.feedback = goal
@@ -83,10 +83,7 @@ class ActionsQuiz(object):
             self.takeoff(duration=1)
         if goal == self.LAND_KW:
             self.land(duration=1)
-        r.sleep()
     
-
-
     # at this point, either the goal has been achieved (success==true)
     # or the client preempted the goal (success==false)
     # If success, then we publish the final result
